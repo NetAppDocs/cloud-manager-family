@@ -48,117 +48,124 @@ product-family:
         tags: monitoring
       - title: Google Cloud
         tags: gcp
+      - title: Security
+        tags: security
       - title: Storage
         tags: storage
 
   tiles:
     - title: "Get started with Cloud Manager"
       icon: ./media/icon-docs.png
-      url: intro-family.html
+      url: https://docs.netapp.com/us-en/cloud-manager-get-started/index.html
       summary: "Learn how to start using Cloud Manager."
       tags: all, get-started
     - title: "Release notes"
       icon: ./media/icon-docs.png
-      url: https://docs.netapp.com/us-en/astra/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
       summary: "Learn what's new across all of Cloud Manager."
       tags: all, relnotes
     - title: "Accounts"
       icon: ./media/icon-accounts.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-accounts/index.html
       summary: "Manage NetApp accounts to organize users and resources in isolated workspaces."
       tags: all, admin
     - title: "Amazon FSx for ONTAP"
       icon: ./media/icon-fsx.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html
       summary: "Use the full capabilities of ONTAP as a native, AWS-managed service."
       tags: all, storage, aws
     - title: "API"
       icon: ./media/icon-api.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-automation/index.html
       summary: "Programmatically administer your cloud-based resources."
       tags: all, api, automation
     - title: "AppTemplate"
       icon: ./media/icon-app-template.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-app-template/index.html
       summary: "Automate actions in Cloud Manager to speed up provisioning and eliminate manual work."
       tags: all, automation
     - title: "Azure NetApp Files"
       icon: ./media/icon-anf.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/index.html
       summary: "High-performance file storage service for your core business applications."
       tags: all, storage, azure
     - title: "Cloud Backup"
       icon: ./media/icon-backup.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html
       summary: "Protect and archive cloud and on-prem ONTAP data."
       tags: all, backup, aws, azure, gcp
     - title: "Cloud Data Sense"
       icon: ./media/icon-data-sense.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html
       summary: "Get your application data and cloud environments privacy ready."
       tags: all, governance, aws, azure, gcp
     - title: "Cloud Sync"
       icon: ./media/icon-sync.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-sync/index.html
       summary: "Sync data between on-prem and cloud data stores."
       tags: all, aws, azure, gcp, sync, replication
     - title: "Cloud Tiering"
       icon: ./media/icon-tiering.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-tiering/index.html
       summary: "Extend your on-prem ONTAP storage to the cloud."
       tags: all, aws, azure, gcp
     - title: "Cloud Volumes ONTAP"
       icon: ./media/icon-cvo.png
-      url: https://docs.netapp.com/us-en/astra-control-center/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
       summary: "Make your cloud storage more affordable, intelligent, compliant, and secure."
       tags: all, storage, aws, azure, gcp
     - title: "Cloud Volumes Service for AWS"
       icon: ./media/icon-cvs.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-aws/index.html
       summary: "A cloud native file service with all-flash performance."
       tags: all, storage, aws
     - title: "Cloud Volumes Service for Google Cloud"
       icon: ./media/icon-cvs.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/index.html
       summary: "Secure, protect, and accelerate your file storage."
       tags: all, storage, gcp
     - title: "Compute"
       icon: ./media/icon-compute.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-compute/index.html
       summary: "Gain visibility into your cloud compute spending and identify potential savings."
       tags: all, compute, aws
     - title: "Connectors"
       icon: ./media/icon-connector.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-connector/index.html
       summary: "Deploy and manage Connectors for Cloud Manager."
       tags: all, admin
     - title: "Global File Cache"
       icon: ./media/icon-cache.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-file-cache/index.html
       summary: "Enable real-time global file sharing for your distributed workforce."
       tags: all, sharing, aws, azure, gcp
     - title: "Kubernetes clusters"
       icon: ./media/icon-kubernetes.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-kubernetes/index.html
       summary: "Advanced data management of the Kubernetes clusters in your hybrid cloud."
       tags: all, kubernetes, aws, azure
     - title: "Monitoring"
       icon: ./media/icon-monitoring.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-monitoring/index.html
       summary: "Gain insight into the health and performance of Cloud Volumes ONTAP."
       tags: all, monitoring
     - title: "On-prem ONTAP clusters"
       icon: ./media/icon-onprem.png
-      url: https://docs.netapp.com/us-en/trident/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/index.html
       summary: "Manage NetApp AFF and FAS systems across your hybrid cloud."
       tags: all, storage
+    - title: "Ransomware"
+      icon: ./media/icon-ransomware.png
+      url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
+      summary: "Assess how resilient your data is to a cyber attack."
+      tags: all, security
     - title: "Replication"
       icon: ./media/icon-replication.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-replication/index.html
       summary: "Replicate data between storage systems to support backup and disaster recovery."
       tags: all, replication, protection
     - title: "SnapCenter Service"
       icon: ./media/icon-snapcenter.png
-      url: https://docs.netapp.com/us-en/astra-automation/index.html
+      url: https://docs.netapp.com/us-en/cloud-manager-snapcenter/index.html
       summary: "Application-consistent data protection in the cloud."
       tags: all, protection
