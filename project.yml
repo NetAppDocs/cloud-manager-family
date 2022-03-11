@@ -33,7 +33,7 @@ product-family:
         tags: protection
       - title: Data replication
         tags: replication
-      - title: Data synchronation
+      - title: Data synchronization
         tags: sync
       - title: File sharing
         tags: sharing
@@ -90,7 +90,7 @@ product-family:
       icon: ./media/icon-backup.png
       url: https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html
       summary: "Protect and archive cloud and on-prem ONTAP data."
-      tags: all, backup, aws, azure, gcp
+      tags: all, backup, aws, azure, gcp, protection
     - title: "Cloud Data Sense"
       icon: ./media/icon-data-sense.png
       url: https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html
@@ -151,7 +151,7 @@ product-family:
       url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/index.html
       summary: "Manage NetApp AFF and FAS systems across your hybrid cloud."
       tags: all, storage
-    - title: "Ransomware"
+    - title: "Ransomware Protection"
       icon: ./media/icon-ransomware.png
       url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
       summary: "Assess how resilient your data is to a cyber attack."
