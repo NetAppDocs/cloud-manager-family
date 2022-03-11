@@ -23,8 +23,6 @@ product-family:
         tags: api
       - title: Automation
         tags: automation
-      - title: Backup
-        tags: backup
       - title: Compute
         tags: compute
       - title: Data governance
@@ -90,7 +88,7 @@ product-family:
       icon: ./media/icon-backup.png
       url: https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html
       summary: "Back up and restore cloud and on-prem data."
-      tags: all, backup, aws, azure, gcp, protection
+      tags: all, aws, azure, gcp, protection
     - title: "Cloud Data Sense"
       icon: ./media/icon-data-sense.png
       url: https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html
