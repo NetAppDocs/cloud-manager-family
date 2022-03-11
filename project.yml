@@ -89,7 +89,7 @@ product-family:
     - title: "Cloud Backup"
       icon: ./media/icon-backup.png
       url: https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html
-      summary: "Protect and archive cloud and on-prem ONTAP data."
+      summary: "Back up and restore cloud and on-prem data."
       tags: all, backup, aws, azure, gcp, protection
     - title: "Cloud Data Sense"
       icon: ./media/icon-data-sense.png
