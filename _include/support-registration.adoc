@@ -1,0 +1,44 @@
+Before you can open a support case with NetApp technical support, you need to add a NetApp Support Site account to Cloud Manager and then register for support.
+
+== Add an NSS account
+
+The Support Dashboard enables you to add and manage all of your NetApp Support Site accounts from a single location.
+
+.Steps
+
+. If you don't have a NetApp Support Site account yet, https://register.netapp.com/register/start[register for one^].
+
+. In the upper right of the Cloud Manager console, click the Help icon, and select *Support*.
++
+image:screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
+
+. Click *NSS Management > Add NSS Account*.
+
+. When you're prompted, click *Continue* to be redirected to a Microsoft login page.
++
+NetApp uses Microsoft Azure Active Directory as the identity provider for authentication services specific to support and licensing.
+
+. At the login page, provide your NetApp Support Site registered email address and password to perform the authentication process.
++
+This action enables Cloud Manager to use your NSS account.
++
+Note the following requirements for the account:
++
+* The account must be a customer-level account (not a guest or temp account).
+* If you plan to deploy a node-based BYOL system:
+** The account must be authorized to access the serial numbers of the BYOL systems.
+** If you purchased a secure BYOL subscription, then a secure NSS account is required.
+
+== Register your account for support
+
+Support registration is available from Cloud Manager in the Support Dashboard.
+
+.Steps
+
+. In the upper right of the Cloud Manager console, click the Help icon, and select *Support*.
++
+image:screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
+
+. In the *Resources* tab, click *Register for Support*.
+
+. Select the NSS credentials that you want to register and then click *Register*.
