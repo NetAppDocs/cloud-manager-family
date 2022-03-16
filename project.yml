@@ -48,7 +48,6 @@ product-family:
         tags: security
       - title: Storage
         tags: storage
-
   tiles:
     - title: "Get started with Cloud Manager"
       icon: ./media/icon-docs.png
