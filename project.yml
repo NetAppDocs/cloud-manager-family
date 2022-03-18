@@ -49,21 +49,16 @@ product-family:
       - title: Storage
         tags: storage
   tiles:
-    - title: "Get started with Cloud Manager"
+    - title: "Set up and administration"
       icon: ./media/icon-docs.png
-      url: https://docs.netapp.com/us-en/cloud-manager-get-started/index.html
-      summary: "Learn how to start using Cloud Manager."
-      tags: all, get-started
+      url: https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html
+      summary: "Learn how to start using Cloud Manager and administer Connectors, accounts, and more."
+      tags: all, get-started, admin
     - title: "Release notes"
       icon: ./media/icon-docs.png
       url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
       summary: "Learn what's new across all of Cloud Manager."
       tags: all, relnotes
-    - title: "Accounts"
-      icon: ./media/icon-accounts.png
-      url: https://docs.netapp.com/us-en/cloud-manager-accounts/index.html
-      summary: "Manage NetApp accounts to organize users and resources in isolated workspaces."
-      tags: all, admin
     - title: "Amazon FSx for ONTAP"
       icon: ./media/icon-fsx.png
       url: https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html
@@ -124,11 +119,6 @@ product-family:
       url: https://docs.netapp.com/us-en/cloud-manager-compute/index.html
       summary: "Gain visibility into your cloud compute spending and identify potential savings."
       tags: all, compute, aws
-    - title: "Connectors"
-      icon: ./media/icon-connector.png
-      url: https://docs.netapp.com/us-en/cloud-manager-connector/index.html
-      summary: "Deploy and manage Connectors for Cloud Manager."
-      tags: all, admin
     - title: "Global File Cache"
       icon: ./media/icon-cache.png
       url: https://docs.netapp.com/us-en/cloud-manager-file-cache/index.html
