@@ -16,6 +16,8 @@ product-family:
         tags: get-started
       - title: Release notes
         tags: relnotes
+      - title: Actionable intelligence
+        tags: activeiq
       - title: Administration
         tags: admin
       - title: Amazon Web Services
@@ -59,6 +61,11 @@ product-family:
       url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
       summary: "Learn what's new across all of Cloud Manager."
       tags: all, relnotes
+    - title: "Active IQ Digital Advisor"
+      icon: ./media/icon-activeiq
+      url: https://docs.netapp.com/us-en/cloud-manager-family/concept-cvo-aiq-digital-advisor.html
+      tags: all, activeiq
+      summary: "Actionable intelligence for optimal storage health."
     - title: "Amazon FSx for ONTAP"
       icon: ./media/icon-fsx.png
       url: https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html
