@@ -62,7 +62,7 @@ product-family:
       summary: "Learn what's new across all of Cloud Manager."
       tags: all, relnotes
     - title: "Active IQ Digital Advisor"
-      icon: ./media/icon-activeiq
+      icon: ./media/icon-activeiq.png
       url: https://docs.netapp.com/us-en/cloud-manager-family/concept-cvo-aiq-digital-advisor.html
       tags: all, activeiq
       summary: "Actionable intelligence for optimal storage health."
