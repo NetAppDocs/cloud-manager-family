@@ -34,8 +34,6 @@ product-family:
         tags: protection
       - title: Data replication
         tags: replication
-      - title: Data synchronization
-        tags: sync
       - title: File sharing
         tags: sharing
       - title: Kubernetes
@@ -46,8 +44,8 @@ product-family:
         tags: monitoring
       - title: Google Cloud
         tags: gcp
-      - title: Security
-        tags: security
+      - title: Ransomware
+        tags: ransomware
       - title: Storage
         tags: storage
   tiles:
@@ -100,7 +98,7 @@ product-family:
       icon: ./media/icon-sync.png
       url: https://docs.netapp.com/us-en/cloud-manager-sync/index.html
       summary: "Sync data between on-prem and cloud data stores."
-      tags: all, aws, azure, gcp, sync, replication
+      tags: all, aws, azure, gcp, replication
     - title: "Cloud Tiering"
       icon: ./media/icon-tiering.png
       url: https://docs.netapp.com/us-en/cloud-manager-tiering/index.html
@@ -150,7 +148,7 @@ product-family:
       icon: ./media/icon-ransomware.png
       url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
       summary: "Assess how resilient your data is to a cyber attack."
-      tags: all, security
+      tags: all, ransomware
     - title: "Replication"
       icon: ./media/icon-replication.png
       url: https://docs.netapp.com/us-en/cloud-manager-replication/index.html
