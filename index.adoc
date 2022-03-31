@@ -1,0 +1,13 @@
+---
+layout: product-family
+permalink: index.html
+lead: Cloud Manager provides IT experts and cloud architects with a centralized control plane to manage, monitor, and automate data in hybrid cloud environments. Browse the docs by product area or use the search above to find content anywhere in the Cloud Manager docs.
+summary: "Cloud Manager provides IT experts and cloud architects with a centralized control plane to manage, monitor, and automate data in hybrid cloud environments. Browse the docs by product area or use the search above to find content anywhere in the Cloud Manager docs."
+---
+
+= Cloud Manager documentation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/

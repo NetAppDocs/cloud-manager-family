@@ -1,0 +1,37 @@
+NetApp provides support for Cloud Manager and its cloud services in a variety of ways. Extensive free self-support options are available 24x7, such as knowledgebase (KB) articles and a community forum. Your support registration includes remote technical support via web ticketing.
+
+== Self support
+
+These options are available for free, 24 hours a day, 7 days a week:
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services[Knowledge base^]
++
+Search through the Cloud Manager knowledge base to find helpful articles to troubleshoot issues.
+
+* http://community.netapp.com/[Communities^]
++
+Join the Cloud Manager community to follow ongoing discussions or create new ones.
+
+* Documentation
++
+The Cloud Manager documentation that you’re currently viewing.
+
+* mailto:ng-cloudmanager-feedback@netapp.com[Feedback email]
++
+We value your input. Submit feedback to help us improve Cloud Manager.
+
+== NetApp support
+
+In addition to the self-support options above, you can work with a NetApp Support Engineer to resolve any issues after you activate support.
+
+.Steps
+
+. In Cloud Manager, click *Help > Support*.
+
+. Choose one of the available options under Technical Support:
+
+.. Click *Call Us* to find phone numbers for NetApp technical support.
+
+.. Click *Open an Issue*, select one the options, and then click *Send*.
++
+A NetApp representative will review your case and get back to you soon.
