@@ -16,14 +16,12 @@ product-family:
         tags: get-started
       - title: Release notes
         tags: relnotes
+      - title: Connectors and accounts
+        tags: admin
       - title: Actionable intelligence
         tags: activeiq
-      - title: Administration
-        tags: admin
       - title: Amazon Web Services
         tags: aws
-      - title: API
-        tags: api
       - title: Automation
         tags: automation
       - title: Compute
