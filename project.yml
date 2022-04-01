@@ -61,7 +61,7 @@ product-family:
       tags: all, relnotes
     - title: "Active IQ Digital Advisor"
       icon: ./media/icon-activeiq.png
-      url: https://docs.netapp.com/us-en/cloud-manager-family/concept-cvo-aiq-digital-advisor.html
+      url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html
       tags: all, activeiq
       summary: "Actionable intelligence for optimal storage health."
     - title: "Amazon FSx for ONTAP"
