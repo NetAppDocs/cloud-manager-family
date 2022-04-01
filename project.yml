@@ -18,10 +18,14 @@ product-family:
         tags: relnotes
       - title: Connectors and accounts
         tags: admin
-      - title: Actionable intelligence
-        tags: activeiq
       - title: Amazon Web Services
         tags: aws
+      - title: Microsoft Azure
+        tags: azure
+      - title: Google Cloud
+        tags: gcp
+      - title: Actionable intelligence
+        tags: activeiq
       - title: Automation
         tags: automation
       - title: Compute
@@ -36,12 +40,8 @@ product-family:
         tags: sharing
       - title: Kubernetes
         tags: kubernetes
-      - title: Microsoft Azure
-        tags: azure
       - title: Monitoring
         tags: monitoring
-      - title: Google Cloud
-        tags: gcp
       - title: Ransomware
         tags: ransomware
       - title: Storage
@@ -71,7 +71,7 @@ product-family:
       icon: ./media/icon-api.png
       url: https://docs.netapp.com/us-en/cloud-manager-automation/index.html
       summary: "Programmatically administer your cloud-based resources."
-      tags: all, api, automation
+      tags: all, automation
     - title: "AppTemplate"
       icon: ./media/icon-app-template.png
       url: https://docs.netapp.com/us-en/cloud-manager-app-template/index.html
