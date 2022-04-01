@@ -12,10 +12,10 @@ product-family:
       - title: All content
         tags: all
         class: active
-      - title: Release notes
-        tags: relnotes
       - title: Get started
         tags: get-started
+      - title: Release notes
+        tags: relnotes
       - title: Connectors and accounts
         tags: admin
       - title: Amazon Web Services
