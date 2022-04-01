@@ -28,6 +28,8 @@ product-family:
         tags: activeiq
       - title: Automation
         tags: automation
+      - title: Cloud storage
+        tags: storage
       - title: Compute
         tags: compute
       - title: Data governance
@@ -44,8 +46,6 @@ product-family:
         tags: monitoring
       - title: Ransomware
         tags: ransomware
-      - title: Storage
-        tags: storage
   tiles:
     - title: "Set up and administration"
       icon: ./media/icon-docs.png
