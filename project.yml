@@ -12,10 +12,10 @@ product-family:
       - title: All content
         tags: all
         class: active
-      - title: Get started
-        tags: get-started
       - title: Release notes
         tags: relnotes
+      - title: Get started
+        tags: get-started
       - title: Connectors and accounts
         tags: admin
       - title: Amazon Web Services
@@ -38,6 +38,8 @@ product-family:
         tags: protection
       - title: Data replication
         tags: replication
+      - title: Data tiering
+        tags: tiering
       - title: File sharing
         tags: sharing
       - title: Kubernetes
@@ -101,7 +103,7 @@ product-family:
       icon: ./media/icon-tiering.png
       url: https://docs.netapp.com/us-en/cloud-manager-tiering/index.html
       summary: "Extend your on-prem ONTAP storage to the cloud."
-      tags: all, aws, azure, gcp
+      tags: all, aws, azure, gcp, tiering
     - title: "Cloud Volumes ONTAP"
       icon: ./media/icon-cvo.png
       url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
