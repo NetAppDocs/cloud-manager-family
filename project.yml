@@ -12,42 +12,34 @@ product-family:
       - title: All content
         tags: all
         class: active
-      - title: Get started
-        tags: get-started
-      - title: Release notes
-        tags: relnotes
-      - title: Connectors and accounts
-        tags: admin
       - title: Amazon Web Services
         tags: aws
-      - title: Microsoft Azure
-        tags: azure
-      - title: Google Cloud
-        tags: gcp
-      - title: Actionable intelligence
-        tags: activeiq
       - title: Automation
         tags: automation
-      - title: Cloud storage
-        tags: storage
+      - title: Code samples
+        tags: code
       - title: Compute
         tags: compute
+      - title: Connectors and accounts
+        tags: admin
       - title: Data governance
         tags: governance
       - title: Data protection
         tags: protection
-      - title: Data replication
-        tags: replication
+      - title: Data storage
+        tags: storage
       - title: Data tiering
         tags: tiering
       - title: File sharing
         tags: sharing
+      - title: Google Cloud
+        tags: gcp
       - title: Kubernetes
         tags: kubernetes
+      - title: Microsoft Azure
+        tags: azure
       - title: Monitoring
         tags: monitoring
-      - title: Ransomware
-        tags: ransomware
   tiles:
     - title: "Set up and administration"
       icon: ./media/icon-docs.png
