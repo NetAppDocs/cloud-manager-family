@@ -50,11 +50,11 @@ product-family:
       icon: ./media/icon-docs.png
       url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
       summary: "Learn what's new across all of Cloud Manager."
-      tags: all, relnotes
+      tags: all
     - title: "Active IQ Digital Advisor"
       icon: ./media/icon-activeiq.png
       url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html
-      tags: all, activeiq
+      tags: all, monitoring
       summary: "Actionable intelligence for optimal storage health."
     - title: "Amazon FSx for ONTAP"
       icon: ./media/icon-fsx.png
@@ -65,7 +65,7 @@ product-family:
       icon: ./media/icon-api.png
       url: https://docs.netapp.com/us-en/cloud-manager-automation/index.html
       summary: "Programmatically administer your cloud-based resources."
-      tags: all, automation
+      tags: all, code
     - title: "AppTemplate"
       icon: ./media/icon-app-template.png
       url: https://docs.netapp.com/us-en/cloud-manager-app-template/index.html
@@ -140,12 +140,12 @@ product-family:
       icon: ./media/icon-ransomware.png
       url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
       summary: "Assess how resilient your data is to a cyber attack."
-      tags: all, ransomware
+      tags: all, protection
     - title: "Replication"
       icon: ./media/icon-replication.png
       url: https://docs.netapp.com/us-en/cloud-manager-replication/index.html
       summary: "Replicate data between storage systems to support backup and disaster recovery."
-      tags: all, replication, protection
+      tags: all, protection
     - title: "SnapCenter Service"
       icon: ./media/icon-snapcenter.png
       url: https://docs.netapp.com/us-en/cloud-manager-snapcenter/index.html
