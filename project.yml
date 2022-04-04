@@ -1,50 +1,49 @@
 settings:
   name: "Cloud Manager"
   platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: true
 sidebar:
   entries:
     - title: All Cloud Manager documentation
       url: /index.html
 product-family:
-  search: "clouddocs-cloud-manager-relnotes_main-prod,clouddocs-cloud-manager-setup-admin_main-prod,clouddocs-cloud-manager-cloud-volumes-ontap_main-prod,clouddocs-cloud-manager-ontap-onprem_main-prod,clouddocs-cloud-manager-azure-netapp-files_main-prod,clouddocs-cloud-manager-fsx-ontap_main-prod,clouddocs-cloud-manager-cloud-volumes-service-aws_main-prod,clouddocs-cloud-manager-cloud-volumes-service-gcp_main-prod,clouddocs-cloud-manager-kubernetes_main-prod,clouddocs-cloud-manager-object-storage_main-prod,clouddocs-cloud-manager-app-template_main-prod,clouddocs-cloud-manager-backup-restore_main-prod,clouddocs-cloud-manager-snapcenter_main-prod,clouddocs-cloud-manager-sync_main-prod,clouddocs-cloud-manager-data-sense_main-prod,clouddocs-cloud-manager-tiering_main-prod,clouddocs-cloud-manager-ransomware_main-prod,clouddocs-cloud-manager-replication_main-prod,clouddocs-cloud-manager-monitoring_main-prod,clouddocs-cloud-manager-file-cache_main-prod,clouddocs-cloud-manager-compute_main-prod,clouddocs-cloud-manager-automation_main-prod,clouddocs-cloud-volumes-ontap-relnotes_main-prod"
+  search: "clouddocs-cloud-manager-relnotes_main-prod,clouddocs-cloud-manager-setup-admin_main-prod,clouddocs-cloud-manager-cloud-volumes-ontap_main-prod,clouddocs-cloud-manager-ontap-onprem_main-prod,clouddocs-cloud-manager-azure-netapp-files_main-prod,clouddocs-cloud-manager-fsx-ontap_main-prod,clouddocs-cloud-manager-cloud-volumes-service-aws_main-prod,clouddocs-cloud-manager-cloud-volumes-service-gcp_main-prod,clouddocs-cloud-manager-kubernetes_main-prod,clouddocs-cloud-manager-app-template_main-prod,clouddocs-cloud-manager-backup-restore_main-prod,clouddocs-cloud-manager-snapcenter_main-prod,clouddocs-cloud-manager-sync_main-prod,clouddocs-cloud-manager-data-sense_main-prod,clouddocs-cloud-manager-tiering_main-prod,clouddocs-cloud-manager-ransomware_main-prod,clouddocs-cloud-manager-replication_main-prod,clouddocs-cloud-manager-monitoring_main-prod,clouddocs-cloud-manager-file-cache_main-prod,clouddocs-cloud-manager-compute_main-prod,clouddocs-cloud-manager-automation_main-prod,clouddocs-cloud-volumes-ontap-relnotes_main-prod"
   sidebarlinks:
-      - title: All content
+      - title: All
         tags: all
         class: active
-      - title: Get started
-        tags: get-started
-      - title: Release notes
-        tags: relnotes
-      - title: Connectors and accounts
-        tags: admin
-      - title: Actionable intelligence
-        tags: activeiq
       - title: Amazon Web Services
         tags: aws
       - title: Automation
         tags: automation
+      - title: Code samples
+        tags: code
       - title: Compute
         tags: compute
+      - title: Connectors and accounts
+        tags: admin
       - title: Data governance
         tags: governance
       - title: Data protection
         tags: protection
-      - title: Data replication
-        tags: replication
+      - title: Data storage
+        tags: storage
+      - title: Data tiering
+        tags: tiering
       - title: File sharing
         tags: sharing
+      - title: Google Cloud
+        tags: gcp
       - title: Kubernetes
         tags: kubernetes
       - title: Microsoft Azure
         tags: azure
       - title: Monitoring
         tags: monitoring
-      - title: Google Cloud
-        tags: gcp
-      - title: Ransomware
-        tags: ransomware
-      - title: Storage
-        tags: storage
   tiles:
     - title: "Set up and administration"
       icon: ./media/icon-docs.png
@@ -55,11 +54,11 @@ product-family:
       icon: ./media/icon-docs.png
       url: https://docs.netapp.com/us-en/cloud-manager-relnotes/index.html
       summary: "Learn what's new across all of Cloud Manager."
-      tags: all, relnotes
+      tags: all
     - title: "Active IQ Digital Advisor"
       icon: ./media/icon-activeiq.png
       url: https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html
-      tags: all, activeiq
+      tags: all, monitoring
       summary: "Actionable intelligence for optimal storage health."
     - title: "Amazon FSx for ONTAP"
       icon: ./media/icon-fsx.png
@@ -70,7 +69,7 @@ product-family:
       icon: ./media/icon-api.png
       url: https://docs.netapp.com/us-en/cloud-manager-automation/index.html
       summary: "Programmatically administer your cloud-based resources."
-      tags: all, api, automation
+      tags: all, code
     - title: "AppTemplate"
       icon: ./media/icon-app-template.png
       url: https://docs.netapp.com/us-en/cloud-manager-app-template/index.html
@@ -100,7 +99,7 @@ product-family:
       icon: ./media/icon-tiering.png
       url: https://docs.netapp.com/us-en/cloud-manager-tiering/index.html
       summary: "Extend your on-prem ONTAP storage to the cloud."
-      tags: all, aws, azure, gcp
+      tags: all, aws, azure, gcp, tiering
     - title: "Cloud Volumes ONTAP"
       icon: ./media/icon-cvo.png
       url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
@@ -145,12 +144,12 @@ product-family:
       icon: ./media/icon-ransomware.png
       url: https://docs.netapp.com/us-en/cloud-manager-ransomware/index.html
       summary: "Assess how resilient your data is to a cyber attack."
-      tags: all, ransomware
+      tags: all, protection
     - title: "Replication"
       icon: ./media/icon-replication.png
       url: https://docs.netapp.com/us-en/cloud-manager-replication/index.html
       summary: "Replicate data between storage systems to support backup and disaster recovery."
-      tags: all, replication, protection
+      tags: all, protection
     - title: "SnapCenter Service"
       icon: ./media/icon-snapcenter.png
       url: https://docs.netapp.com/us-en/cloud-manager-snapcenter/index.html
