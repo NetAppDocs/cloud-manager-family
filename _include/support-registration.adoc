@@ -10,7 +10,7 @@ The Support Dashboard enables you to add and manage all of your NetApp Support S
 
 . In the upper right of the Cloud Manager console, click the Help icon, and select *Support*.
 +
-image:screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
 
 . Click *NSS Management > Add NSS Account*.
 
@@ -22,12 +22,7 @@ NetApp uses Microsoft Azure Active Directory as the identity provider for authen
 +
 This action enables Cloud Manager to use your NSS account.
 +
-Note the following requirements for the account:
-+
-* The account must be a customer-level account (not a guest or temp account).
-* If you plan to deploy a node-based BYOL system:
-** The account must be authorized to access the serial numbers of the BYOL systems.
-** If you purchased a secure BYOL subscription, then a secure NSS account is required.
+Note the account must be a customer-level account (not a guest or temp account).
 
 == Register your account for support
 
@@ -37,7 +32,7 @@ Support registration is available from Cloud Manager in the Support Dashboard.
 
 . In the upper right of the Cloud Manager console, click the Help icon, and select *Support*.
 +
-image:screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
 
 . In the *Resources* tab, click *Register for Support*.
 
