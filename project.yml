@@ -2,6 +2,11 @@ settings:
   name: Cloud Manager
   platform: cloud
   search: cloud-manager-relnotes,cloud-manager-setup-admin,cloud-manager-cloud-volumes-ontap,cloud-manager-ontap-onprem,cloud-manager-azure-netapp-files,cloud-manager-fsx-ontap,cloud-manager-cloud-volumes-service-aws,cloud-manager-cloud-volumes-service-gcp,cloud-manager-kubernetes,cloud-manager-app-template,cloud-manager-backup-restore,cloud-manager-snapcenter,cloud-manager-sync,cloud-manager-data-sense,cloud-manager-tiering,cloud-manager-ransomware,cloud-manager-replication,cloud-manager-monitoring,cloud-manager-file-cache,cloud-manager-compute,cloud-manager-automation,cloud-volumes-ontap-relnotes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: true
 sidebar:
   entries:
     - title: All Cloud Manager documentation
@@ -150,3 +155,4 @@ product-family:
       url: https://docs.netapp.com/us-en/cloud-manager-snapcenter/index.html
       summary: "Application-consistent data protection in the cloud."
       tags: all, protection
+
